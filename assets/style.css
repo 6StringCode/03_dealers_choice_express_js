@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+li {
+    width: calc(100% / 3 - 2rem);
+    margin: 1rem;
+    border: solid 4px dodgerblue;
+    border-radius: 25px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.details-text {
+    font-weight: normal;
+    font-style: italic;
+}
